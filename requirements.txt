@@ -1,0 +1,5 @@
+markdownify
+pandas
+PyAutoGUI
+selenium
+MouseInfo
