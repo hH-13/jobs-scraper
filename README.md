@@ -15,15 +15,13 @@ Have a look at the Quarto-based demo at [hh-13.github.io/jobs-scraper](https://h
 2. [Features](#features)
 3. [Getting Started](#getting-started)
     - [Requirements](#requirements)
-    - [Installation](#installation)
+    - [Installation and Usage](#installation-and-usage)
+    - [Examples](#examples)
 4. [Usage](#usage)
     - [The video](#the-video)
     - [Snapshots](#snapshots)
-5. [License](#license)
-6. [Contributors](#contributors)
-7. [Extras](#extras)
-    - [Stuff that went wrong, Stuff… (Behind The Codes)](#stuff-that-went-wrong-stuff-behind-the-codes)
-    - [Mind waving us a Hi on our Discord?](#mind-waving-us-a-hi-on-our-discord)
+5. [What's next](#whats-next)
+6. [Keep Coding!](#keep-coding)
 
 </details>
 
@@ -64,7 +62,7 @@ scraper_example.py       - example script for running the scraper, saving the da
 - [Pola-rs](https://pypi.org/project/polars/)
 - [Markdownify](https://pypi.org/project/markdownify/)
 
-### Installation
+### Installation and Usage
 ```console
 # Clone this repo and cd into it
 foo@bar:~$ git clone https://github.com/hH-13/jobs-scraper.git
@@ -99,4 +97,18 @@ options:
 
 ```
 
-## 
+### Examples
+
+Have a look at this notebook [usage.qmd](usage.qmd) or the demo page at [hh-13.github.io/jobs-scraper](https://hh-13.github.io/jobs-scraper) for usage examples.
+
+
+## What's next?
+
+The possibilites are endless!
+
+- Extract specific details from Job descriptions using Natural-language processing tools, or LLMs using Retrieval-augmented Generation techniques.
+- Create an embeddings map of the descriptions to spot patterns.
+- Stay on top of the latest trends in the job markets by monitoring the top keywords in a search session.
+
+## Keep Coding!
+![keep coding!](img/keep_coding.webp)
