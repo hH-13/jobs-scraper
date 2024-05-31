@@ -1,6 +1,6 @@
 # jobs-scraper
 
-A selenium-based job scraper in Python. Automate your job search by retrieving job listings from popular job portals, and store them in a database ([duckdb](https://duckdb.org/)) for easy management and analysis. 
+A selenium-based job scraper in Python. Automate your job search by retrieving job listings from popular job portals, and storing them in a database ([duckdb](https://duckdb.org/)) for easy management and analysis. 
 
 Have a look at the Quarto-based demo at [hh-13.github.io/jobs-scraper](https://hh-13.github.io/jobs-scraper)!
 
