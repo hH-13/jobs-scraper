@@ -11,6 +11,7 @@ class Portal:
     def __init__(self, domain: str, **kwargs) -> None:
         super().__init__(**kwargs)
         self.domain = domain if domain.startswith("http") else f"https://{domain}"
+        self.domain = self.domain[:-1] if self.domain.endswith("/") else self.domain
         print("prtl")
 
     def _get_jobs_url(self, **kwargs) -> str:
@@ -31,7 +32,7 @@ class BrowserHandler:
         # return self._driver
         return self
 
-    def _open_browser(self, headless: bool = True) -> webdriver.Chrome | webdriver.Firefox:
+    def _open_browser(self, headless: bool = False) -> webdriver.Chrome | webdriver.Firefox:
         if self.browser == "chrome":
             from selenium.webdriver.chrome.options import Options
             # from selenium.webdriver.chrome.service import Service as ChromeService
@@ -60,3 +61,7 @@ class BrowserHandler:
 
     def __exit__(self, *args, **kwargs) -> None:
         self._driver.quit()
+
+
+class DBMan:
+    pass
